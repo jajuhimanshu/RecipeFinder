@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/search_screen_background"
+    android:paddingStart="@dimen/search_screen_padding_horizontal"
+    android:paddingEnd="@dimen/search_screen_padding_horizontal"
+    android:paddingTop="@dimen/search_screen_padding_top">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_finder_title"
+        style="@style/SearchTitle"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/recipe_finder_subtitle"
+        style="@style/SearchSubtitle"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/search_bar_height"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:hint="@string/search_recipes_hint"
+            android:background="@drawable/search_box_background"
+            style="@style/SearchEditText"/>
+
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="@dimen/search_button_width"
+            android:layout_height="match_parent"
+            android:text="@string/search"
+            android:background="@drawable/search_button_background"
+            style="@style/SearchButton"/>
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:layout_marginTop="@dimen/search_progress_margin_top"/>
+
+    <TextView
+        android:id="@+id/tvNoRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_recipes_available"
+        android:gravity="center"
+        android:visibility="gone"
+        style="@style/NoRecipesMessage"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="@dimen/search_recycler_padding_bottom"/>
+
+</LinearLayout>

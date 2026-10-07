@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">Recipe Finder</string>
+
+
+    <string name="recipe_finder_title">Recipe Finder</string>
+    <string name="recipe_finder_subtitle">Find delicious recipes for your next meal</string>
+    <string name="search_recipes_hint">Search recipes...</string>
+    <string name="search">Search</string>
+    <string name="no_recipes_available">No recipes available</string>
+    <string name="recipes_unavailable">Recipes are currently unavailable</string>
+    <string name="enter_recipe_name">Please enter a recipe name</string>
+
+
+    <string name="back">← Back</string>
+    <string name="recipe_name">Recipe Name</string>
+    <string name="category">Category</string>
+    <string name="cuisine">Cuisine</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="cooking_instructions">Cooking Instructions</string>
+    <string name="cooking_instructions_placeholder">Cooking instructions</string>
+
+</resources>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+
+
+    <style name="SearchTitle">
+        <item name="android:textSize">@dimen/search_title_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/search_title_text</item>
+        <item name="android:layout_marginTop">@dimen/search_title_margin_top</item>
+    </style>
+
+    <style name="SearchSubtitle">
+        <item name="android:textSize">@dimen/search_subtitle_text_size</item>
+        <item name="android:textColor">@color/search_subtitle_text</item>
+        <item name="android:layout_marginTop">@dimen/search_subtitle_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/search_subtitle_margin_bottom</item>
+    </style>
+
+    <style name="SearchEditText">
+        <item name="android:textSize">@dimen/search_edit_text_text_size</item>
+        <item name="android:textColor">@color/search_text</item>
+        <item name="android:textColorHint">@color/search_hint</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingStart">@dimen/search_edit_text_padding_horizontal</item>
+        <item name="android:paddingEnd">@dimen/search_edit_text_padding_horizontal</item>
+    </style>
+
+    <style name="SearchButton">
+        <item name="android:textSize">@dimen/search_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginStart">@dimen/search_button_margin_start</item>
+    </style>
+
+    <style name="NoRecipesMessage">
+        <item name="android:textSize">@dimen/no_recipes_text_size</item>
+        <item name="android:textColor">@color/no_recipes_text</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/no_recipes_margin_top</item>
+    </style>
+
+
+
+
+    <style name="RecipeDetailsBackButton">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">@dimen/details_back_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:padding">@dimen/details_back_padding</item>
+    </style>
+
+    <style name="RecipeDetailsName">
+        <item name="android:textSize">@dimen/details_recipe_name_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/recipe_details_primary_text</item>
+        <item name="android:layout_marginTop">@dimen/details_recipe_name_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsCategory">
+        <item name="android:textSize">@dimen/details_info_text_size</item>
+        <item name="android:textColor">@color/recipe_details_secondary_text</item>
+        <item name="android:layout_marginTop">@dimen/details_category_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsCuisine">
+        <item name="android:textSize">@dimen/details_info_text_size</item>
+        <item name="android:textColor">@color/recipe_details_secondary_text</item>
+        <item name="android:layout_marginTop">@dimen/details_area_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsIngredientsTitle">
+        <item name="android:textSize">@dimen/details_section_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/recipe_details_primary_text</item>
+        <item name="android:layout_marginTop">@dimen/details_ingredients_title_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsInstructionsTitle">
+        <item name="android:textSize">@dimen/details_section_title_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/recipe_details_primary_text</item>
+        <item name="android:layout_marginTop">@dimen/details_instructions_title_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsContent">
+        <item name="android:textSize">@dimen/details_content_text_size</item>
+        <item name="android:textColor">@color/recipe_details_content_text</item>
+        <item name="android:lineSpacingExtra">@dimen/details_content_line_spacing</item>
+        <item name="android:layout_marginTop">@dimen/details_content_margin_top</item>
+    </style>
+
+    <style name="RecipeDetailsInstructionsContent">
+        <item name="android:textSize">@dimen/details_content_text_size</item>
+        <item name="android:textColor">@color/recipe_details_content_text</item>
+        <item name="android:lineSpacingExtra">@dimen/details_content_line_spacing</item>
+        <item name="android:layout_marginTop">@dimen/details_content_margin_top</item>
+        <item name="android:layout_marginBottom">@dimen/details_instructions_margin_bottom</item>
+    </style>
+
+</resources>
